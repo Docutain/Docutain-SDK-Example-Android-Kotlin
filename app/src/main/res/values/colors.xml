@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4CAF50</color>
+    <color name="primaryVariant">#388E3C </color>
+    <color name="onPrimary">#FFFFFFFF</color>
+    <color name="secondary">#4CAF50</color>
+    <color name="secondaryVariant">#388E3C </color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="topBarsBackground">#4CAF50</color>
+    <color name="topBarsForeground">#FFFFFFFF</color>
+</resources>

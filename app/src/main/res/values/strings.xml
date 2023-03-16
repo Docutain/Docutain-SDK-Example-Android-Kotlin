@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Docutain SDK Example</string>
+    <string name="title_document_scan">Document Scanner</string>
+    <string name="subtitle_document_scan">Starts the document scanner which provides automatic scanning of paper documents.</string>
+    <string name="title_data_extraction">Data Extraction</string>
+    <string name="subtitle_data_extraction">Extract data, e.g. invoice data, from a previously scanned or imported (PDF or Image) document.</string>
+    <string name="title_text_recognition">Text Recognition (OCR)</string>
+    <string name="subtitle_text_recognition">Run OCR on the previously scanned or imported (PDF or Image) document and get the recognized text.</string>
+    <string name="title_PDF_generating">Generate PDF Document</string>
+    <string name="subtitle_PDF_generating">Generate a searchable (includes recognized text) PDF document out of the scanned pages or imported image.</string>
+    <string name="title_input_option">First, scan or import a document</string>
+    <string name="input_option_scan">Document Scan</string>
+    <string name="input_option_PDF">PDF Import</string>
+    <string name="input_option_image">Image Import</string>
+    <string name="name1_hint">Name 1</string>
+    <string name="name2_hint">Name 2</string>
+    <string name="name3_hint">Name 3</string>
+    <string name="zipcode_hint">Zipcode</string>
+    <string name="city_hint">City</string>
+    <string name="street_hint">Street</string>
+    <string name="phone_hint">Phone</string>
+    <string name="customerId_hint">Customer ID</string>
+    <string name="BIC_hint">BIC</string>
+    <string name="IBAN_hint">IBAN</string>
+    <string name="date_hint">Date</string>
+    <string name="amount_hint">Amount</string>
+    <string name="invoiceId_hint">Invoice ID</string>
+    <string name="reference_hint">Reference</string>
+    <string name="paymentState_hint">Payment State</string>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Docutain SDK Example</string>
+    <string name="title_document_scan">Dokumentenscanner</string>
+    <string name="subtitle_document_scan">Startet den Dokumentenscanner, der das automatische Scannen von Papierdokumenten ermöglicht.</string>
+    <string name="title_data_extraction">Datenextraktion</string>
+    <string name="subtitle_data_extraction">Daten extrahieren, z.B. Rechnungsdaten, aus einem zuvor gescannten oder importierten Dokument (PDF oder Bild).</string>
+    <string name="title_text_recognition">Texterkennung (OCR)</string>
+    <string name="subtitle_text_recognition">Führen Sie OCR für das zuvor gescannte oder importierte Dokument (PDF oder Bild) aus und erhalten Sie den erkannten Text.</string>
+    <string name="title_PDF_generating">PDF Dokument erstellen</string>
+    <string name="subtitle_PDF_generating">Generieren Sie aus den gescannten Seiten oder dem importierten Bild ein durchsuchbares PDF-Dokument (mit erkanntem Text).</string>
+    <string name="title_input_option">Zunächst Dokument scannen oder importieren</string>
+    <string name="input_option_scan">Dokumentenscanner</string>
+    <string name="input_option_PDF">PDF Import</string>
+    <string name="input_option_image">Bild Import</string>
+    <string name="name1_hint">Name 1</string>
+    <string name="name2_hint">Name 2</string>
+    <string name="name3_hint">Name 3</string>
+    <string name="zipcode_hint">Postleitzahl</string>
+    <string name="city_hint">Ort</string>
+    <string name="street_hint">Straße</string>
+    <string name="phone_hint">Telefonnummer</string>
+    <string name="customerId_hint">Kundennummer</string>
+    <string name="BIC_hint">BIC</string>
+    <string name="IBAN_hint">IBAN</string>
+    <string name="date_hint">Datum</string>
+    <string name="amount_hint">Betrag</string>
+    <string name="invoiceId_hint">Rechnungsnummer</string>
+    <string name="reference_hint">Verwendungszweck</string>
+    <string name="paymentState_hint">Zahlstatus</string>
+</resources>
