@@ -9,6 +9,8 @@
     <string name="title_PDF_generating">PDF Dokument erstellen</string>
     <string name="subtitle_PDF_generating">Generieren Sie aus den gescannten Seiten oder dem importierten Bild ein durchsuchbares PDF-Dokument (mit erkanntem Text).</string>
     <string name="title_input_option">Zunächst Dokument scannen oder importieren</string>
+    <string name="subtitle_settings">Konfigurieren Sie Farbe, Scanner und Bearbeitung des SDK</string>
+    <string name="title_settings">Einstellungen</string>
     <string name="input_option_scan">Dokumentenscanner</string>
     <string name="input_option_PDF">PDF Import</string>
     <string name="input_option_image">Bild Import</string>
@@ -27,4 +29,66 @@
     <string name="invoiceId_hint">Rechnungsnummer</string>
     <string name="reference_hint">Verwendungszweck</string>
     <string name="paymentState_hint">Zahlstatus</string>
+    <string name="color_settings">Farb-Einstellungen</string>
+    <string name="scan_settings">Scannen-Einstellungen</string>
+    <string name="edit_settings">Bearbeiten-Einstellungen</string>
+    <string name="rest_settings">Zurücksetzen</string>
+
+    // Farbeinstellungen
+    <string name="color_primary_subtitle">Verwendet, um Fortschrittsanzeigen und die Dialogschaltflächen zu tönen</string>
+
+    <string name="color_secondary_subtitle">Verwendet, um auswählbare Steuerelemente und die Aufnahmeschaltfläche zu tönen</string>
+
+    <string name="color_on_secondary_subtitle">Verwendet, um Elemente zu tönen, die auf ColorSecondary liegen, wie das Symbol der Aufnahme</string>
+
+    <string name="color_scan_layout_subtitle">Verwendet, um den Hintergrund des Layouts zu tönen, das die Schaltflächen des Scan-Layouts enthält, wie die Aufnahmeschaltfläche oder die Taschenlampenschaltfläche</string>
+
+    <string name="color_scan_foreground_subtitle">Verwendet, um den Vordergrund der Schaltflächen des Scan-Layouts zu tönen, wie die Taschenlampenschaltfläche</string>
+
+    <string name="color_scan_polygon_subtitle">Verwendet, um das Polygon-Overlay zu tönen, das das aktuell erkannte Dokument hervorhebt</string>
+
+    <string name="color_bottom_bar_background_subtitle">Verwendet, um den Hintergrund der unteren Symbolleiste der Bildbearbeitungsseite zu tönen</string>
+
+    <string name="color_bottom_bar_forground_subtitle">Verwendet, um die Schaltflächen innerhalb der unteren Symbolleiste der Bildbearbeitungsseite zu tönen</string>
+
+    <string name="color_top_bar_background_subtitle">Verwendet, um den Hintergrund der oberen Symbolleiste zu tönen</string>
+
+    <string name="color_top_bar_forground_subtitle">Verwendet, um die Elemente in der oberen Symbolleiste zu tönen, wie Schaltflächen und Titel</string>
+
+    // Scan-Einstellungen
+    <string name="capture_mode_setting_subtitle">Wenn aktiviert, wird die Symbolleiste des Dokumentscanners ein Element anzeigen, mit dem der Benutzer zwischen automatischer und manueller Kameraauslösung wechseln kann</string>
+
+    <string name="auto_capture_setting_subtitle">Wenn aktiviert, wird die Kamera das Bild automatisch im richtigen Moment aufnehmen</string>
+
+    <string name="auto_crop_setting_subtitle">Wenn aktiviert, wird das Bild automatisch beschnitten, wenn ein Dokument erkannt wurde. Dies gilt nur beim Importieren</string>
+
+    <string name="multi_page_setting_subtitle">Wenn aktiviert, ist das Scannen mehrseitiger Dokumente möglich. Legen Sie dies auf falsch fest, wenn Sie einseitige Dokumente scannen müssen</string>
+
+    <string name="pre_capture_setting_subtitle">Wenn aktiviert, führt die Kamera kurz vor der Bildaufnahme eine Fokusaktion aus. Dies verbessert die Qualität der gescannten Bilder, kann aber je nach Gerät dazu führen, dass die Bildaufnahme etwas länger dauert. Dies gilt nur für Android</string>
+
+    <string name="default_scan_setting_subtitle">Der Standard-Scanfilter, der nach dem Scannen verwendet wird</string>
+
+    // Bearbeitungseinstellungen
+    <string name="allow_page_filter_setting_subtitle">Wenn deaktiviert, wird die untere Symbolleiste das Filterseiten-Element ausblenden</string>
+
+    <string name="allow_page_rotation_setting_subtitle">Wenn deaktiviert, wird die untere Symbolleiste das Element "Seite drehen" ausblenden</string>
+
+    <string name="allow_page_arrangement_setting_subtitle">Wenn deaktiviert, wird die untere Symbolleiste das Element "Seitenanordnung" ausblenden</string>
+
+    <string name="allow_page_cropping_setting_subtitle">Wenn deaktiviert, wird die untere Symbolleiste das Seitenbeschneidungs-Element ausblenden</string>
+
+    <string name="page_arrangement_delete_setting_subtitle">Wenn aktiviert, wird jedes Element der Seitenanordnungsfunktionalität eine Löschschaltfläche anzeigen</string>
+
+    <string name="page_arrangement_number_setting_subtitle">Wenn aktiviert, wird jedes Element der Seitenanordnungsfunktionalität seine Seitennummer anzeigen</string>
+
+    // Scanfilterdialog
+    <string name="title_scan_dialog">Bitte wählen Sie…</string>
+    <string name="cancel_scan_dialog">Abbrechen</string>
+    <string name="auto_option">Automatisch</string>
+    <string name="gray_option">Grau</string>
+    <string name="black_and_white_option">Schwarz &amp; Weiß</string>
+    <string name="original_option">Original</string>
+    <string name="text_option">Text</string>
+    <string name="auto_2_option">Automatisch2</string>
+    <string name="illustration_option">Illustration</string>
 </resources>

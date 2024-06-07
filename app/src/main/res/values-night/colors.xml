@@ -8,4 +8,22 @@
     <color name="onSecondary">#FFFFFF</color>
     <color name="topBarsBackground">#2a2a2a</color>
     <color name="topBarsForeground">#DEffffff</color>
+
+    <color name="docutain_colorSecondary">#4CAF50</color>
+    <color name="docutain_colorOnSecondary">#FF000000</color>
+    <color name="docutain_colorPrimary">#4CAF50</color>
+    <!--    currently not used-->
+    <!--    <color name="docutain_colorOnPrimary">#DEffffff</color>-->
+    <color name="docutain_colorScanButtonsLayoutBackground">#121212</color>
+<!--    <color name="docutain_colorScanButtonsLayoutBackground">#B00020</color>-->
+    <color name="docutain_colorScanButtonsForeground">#FFFFFFFF</color>
+    <color name="docutain_colorSurfaceBelowImage">#090909</color>
+    <color name="docutain_colorScanPolygon">#4CAF50</color>
+    <color name="docutain_colorBottomBarBackground">#FF212121</color>
+    <color name="docutain_colorBottomBarForeground">#FFBEBEBE</color>
+    <color name="docutain_colorTopBarBackground">#2a2a2a</color>
+    <color name="docutain_colorTopBarForeground">#DEffffff</color>
+    <color name="docutain_colorRipple">#33969696</color>
+    <!--    <color name="docutain_colorStatusBar">#2a2a2a</color>-->
+    <color name="docutain_colorError">#B00020</color>
 </resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_settings_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72dp">
+
+    <TextView
+        android:id="@+id/title_settings_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Title"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/light_circle_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitle_settings_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="subtitle"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp"
+        android:paddingBottom="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/light_circle_view"
+        app:layout_constraintStart_toStartOf="@+id/title_settings_item"
+        app:layout_constraintTop_toBottomOf="@+id/title_settings_item" />
+
+    <View
+        android:id="@+id/light_circle_view"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dark_circle_view"
+        app:layout_constraintEnd_toStartOf="@+id/dark_circle_view"
+        app:layout_constraintTop_toTopOf="@+id/dark_circle_view" />
+
+    <TextView
+        android:id="@+id/dark_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Dark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/dark_circle_view"
+        app:layout_constraintStart_toStartOf="@+id/dark_circle_view"
+        app:layout_constraintTop_toBottomOf="@+id/dark_circle_view" />
+
+    <View
+        android:id="@+id/dark_circle_view"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title_settings_item" />
+
+    <TextView
+        android:id="@+id/light_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/light_circle_view"
+        app:layout_constraintStart_toStartOf="@+id/light_circle_view"
+        app:layout_constraintTop_toBottomOf="@+id/light_circle_view" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height=".5dp"
+        android:background="@color/line_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle_settings_item" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

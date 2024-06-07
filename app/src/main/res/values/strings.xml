@@ -9,6 +9,8 @@
     <string name="title_PDF_generating">Generate PDF Document</string>
     <string name="subtitle_PDF_generating">Generate a searchable (includes recognized text) PDF document out of the scanned pages or imported image.</string>
     <string name="title_input_option">First, scan or import a document</string>
+    <string name="subtitle_settings">Configure color, scanner and editing of the SDK</string>
+    <string name="title_settings">Settings</string>
     <string name="input_option_scan">Document Scan</string>
     <string name="input_option_PDF">PDF Import</string>
     <string name="input_option_image">Image Import</string>
@@ -27,4 +29,89 @@
     <string name="invoiceId_hint">Invoice ID</string>
     <string name="reference_hint">Reference</string>
     <string name="paymentState_hint">Payment State</string>
+    <string name="color_settings">Color Settings</string>
+    <string name="scan_settings">Scan Settings</string>
+    <string name="edit_settings">Edit Settings</string>
+    <string name="rest_settings">Reset</string>
+
+
+    // color settings
+    <string name="color_primary_title">ColorPrimary</string>
+    <string name="color_primary_subtitle">Used to tint progress indicators and the dialog buttons</string>
+
+    <string name="color_secondary_title">ColorSecondary</string>
+    <string name="color_secondary_subtitle">Used to tint selectable controls and the capture button</string>
+
+    <string name="color_on_secondary_title">ColorOnSecondary</string>
+    <string name="color_on_secondary_subtitle">Used to tint elements that reside on ColorSecondary, like the icon of the capture</string>
+
+    <string name="color_scan_layout_title">ColorScanButtonsLayoutBackground</string>
+    <string name="color_scan_layout_subtitle">Used to tint the background of the layout containing the buttons of the scan layout, like the capture button or torch button</string>
+
+    <string name="color_scan_foreground_title">ColorScanButtonsForeground</string>
+    <string name="color_scan_foreground_subtitle">Used to tint the foreground of the buttons of the scan layout, like the torch button</string>
+
+    <string name="color_scan_polygon_title">ColorScanPolygon</string>
+    <string name="color_scan_polygon_subtitle">Used to tint the polygon overlay which highlights the currently detected document</string>
+
+    <string name="color_bottom_bar_background_title">ColorBottomBarBackground</string>
+    <string name="color_bottom_bar_background_subtitle">Used to tint the bottom toolbar background of the image editing page</string>
+
+    <string name="color_bottom_bar_forground_title">ColorBottomBarForeground</string>
+    <string name="color_bottom_bar_forground_subtitle">Used to tint the buttons within the bottom toolbar of the image editing page</string>
+
+    <string name="color_top_bar_background_title">ColorTopBarBackground</string>
+    <string name="color_top_bar_background_subtitle">Used to tint the top toolbar background</string>
+
+    <string name="color_top_bar_forground_title">ColorTopBarForeground</string>
+    <string name="color_top_bar_forground_subtitle">Used to tint the elements contained in the top toolbar, like buttons and titles</string>
+
+    // scan settings
+    <string name="capture_mode_setting_title">AllowCaptureModeSetting</string>
+    <string name="capture_mode_setting_subtitle">If activated, the document scanner toolbar will display an item that allows the user to switch between automatic and manual camera triggering</string>
+
+    <string name="auto_capture_setting_title">AutoCapture</string>
+    <string name="auto_capture_setting_subtitle">If activated, the camera will capture the image automatically at the right moment</string>
+
+    <string name="auto_crop_setting_title">AutoCrop</string>
+    <string name="auto_crop_setting_subtitle">If activated, image gets automatically cropped if document was detected. This applies only when importing</string>
+
+    <string name="multi_page_setting_title">MultiPage</string>
+    <string name="multi_page_setting_subtitle">If activated, scanning multi page documents is possible. Set this to false if you need to scan single page documents</string>
+
+    <string name="pre_capture_setting_title">PreCaptureFocus</string>
+    <string name="pre_capture_setting_subtitle">If activated, the camera will run a focus action right before taking the image, This improves the quality of the scanned images, but depending on the device, image capture might take a little bit longer. This applies only to Android</string>
+
+    <string name="default_scan_setting_title">DefaultScanFilter</string>
+    <string name="default_scan_setting_subtitle">The default scan filter that will be used after scan</string>
+
+    // edit settings
+    <string name="allow_page_filter_setting_title">AllowPageFilter</string>
+    <string name="allow_page_filter_setting_subtitle">If deactivated, the bottom toolbar will hide the filter page item</string>
+
+    <string name="allow_page_rotation_setting_title">AllowPageRotation</string>
+    <string name="allow_page_rotation_setting_subtitle">If deactivated, the bottom toolbar will hide the rotate page item</string>
+
+    <string name="allow_page_arrangement_setting_title">AllowPageArrangement</string>
+    <string name="allow_page_arrangement_setting_subtitle">If deactivated, the bottom toolbar will hide the arrange page item</string>
+
+    <string name="allow_page_cropping_setting_title">AllowPageCropping</string>
+    <string name="allow_page_cropping_setting_subtitle">If deactivated, the bottom toolbar will hide the page cropping item</string>
+
+    <string name="page_arrangement_delete_setting_title">PageArrangementShowDeleteButton</string>
+    <string name="page_arrangement_delete_setting_subtitle">If activated, each item of the page arrangement functionality will show a delete button</string>
+
+    <string name="page_arrangement_number_setting_title">PageArrangementShowPageNumber</string>
+    <string name="page_arrangement_number_setting_subtitle">If activated, each item of the page arrangement functionality will show it#s page number</string>
+
+    // scan filter dialog
+    <string name="title_scan_dialog">Please choose …</string>
+    <string name="cancel_scan_dialog">Cancel</string>
+    <string name="auto_option">Auto</string>
+    <string name="gray_option">Gray</string>
+    <string name="black_and_white_option">Black &amp; White</string>
+    <string name="original_option">Original</string>
+    <string name="text_option">Text</string>
+    <string name="auto_2_option">Auto2</string>
+    <string name="illustration_option">Illustration</string>
 </resources>

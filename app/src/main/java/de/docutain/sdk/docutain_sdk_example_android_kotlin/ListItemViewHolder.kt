@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 
 class ListItemViewHolder(itemView: View) : ViewHolder(itemView) {
-
     val icon: ImageView = itemView.findViewById(R.id.list_item_icon)
     val title: TextView = itemView.findViewById(R.id.list_item_text)
     val secondary: TextView = itemView.findViewById(R.id.list_item_secondary_text)

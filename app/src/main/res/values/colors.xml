@@ -8,4 +8,24 @@
     <color name="onSecondary">#FFFFFF</color>
     <color name="topBarsBackground">#4CAF50</color>
     <color name="topBarsForeground">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FF4CAF50</color>
+
+    <color name="docutain_colorPrimary">#4CAF50</color>
+    <color name="docutain_colorSecondary">#4CAF50</color>
+    <color name="docutain_colorOnSecondary">@android:color/white</color>
+
+    <color name="docutain_colorScanButtonsLayoutBackground">#121212</color>
+    <color name="docutain_colorScanButtonsForeground">@android:color/white</color>
+    <color name="docutain_colorSurfaceBelowImage">#e9e9e9</color>
+    <color name="docutain_colorScanPolygon">#4CAF50</color>
+    <color name="docutain_colorBottomBarBackground">@android:color/white</color>
+    <color name="docutain_colorBottomBarForeground">@android:color/secondary_text_light</color>
+    <color name="docutain_colorTopBarBackground">#4CAF50</color>
+    <color name="docutain_colorTopBarForeground">@android:color/white</color>
+    <color name="docutain_colorRipple">#33969696</color>
+    <color name="docutain_colorStatusBar">#4CAF50</color>
+    <color name="docutain_colorError">#B00020</color>
+    <color name="line_color">#DB999999</color>
+
 </resources>

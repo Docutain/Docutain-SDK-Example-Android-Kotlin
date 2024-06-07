@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_settings_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="64dp">
+
+    <TextView
+        android:id="@+id/title_filter_settings_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Title"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/input_filter_filter_dialog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitle_filter_settings_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="subtitle"
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/input_filter_filter_dialog"
+        app:layout_constraintStart_toStartOf="@+id/title_filter_settings_item"
+        app:layout_constraintTop_toBottomOf="@+id/title_filter_settings_item" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input_filter_filter_dialog"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:text="Auto"
+        android:clickable="true"
+        android:textSize="14sp"
+        android:focusableInTouchMode="false"
+        app:layout_constraintBottom_toBottomOf="@+id/subtitle_filter_settings_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title_filter_settings_item"
+        android:focusable="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>
