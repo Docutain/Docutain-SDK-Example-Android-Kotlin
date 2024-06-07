@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
     private val settingsSharedPreferences = SettingsSharedPreferences(this)
 
     //A valid license key is required, you can generate one on our website https://sdk.docutain.com/TrialLicense?Source=655617
-    private val licenseKey = "7QeVRaqwTDV623EQDfR96VQf7L6Zzgf9bnkw2wfYzWeMO8nFHK+dUPnkjq++1XzRQpB/Hxej5uzKw9GgvgQ3if/pZn1tnVV0/bME+I6GgWaoO9n8ElfNVxAmv17s5SdUvklgQTzZiYjeI+mJ"
+    private val licenseKey = "YOUR_LICENSE_KEY_HERE"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
