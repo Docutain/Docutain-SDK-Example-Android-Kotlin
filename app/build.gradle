@@ -34,7 +34,7 @@ android {
 
 dependencies {
     //Import the Docutain SDK, always use the latest available version
-    def docutainSdkVersion = '1.+'
+    def docutainSdkVersion = '1.7.0.3'
     //For Document Scanner components
     implementation("de.docutain:Docutain-SDK-UI:$docutainSdkVersion")
     //For Data Extraction and OCR (Text Recognition) components
